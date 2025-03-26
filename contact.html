@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET-KEYs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-header h1 {
+    margin-bottom: 20px;
+}
+
+.contact-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.contact-form,
+.contact-details {
+    width: 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.contact-details h2 {
+    margin-bottom: 20px;
+}
+
+.contact-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-details img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.footer-1 {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+}
+    </style>
+</head>
+<body>
+    <div class="nav-bar2">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vehicle.html">Vehicles</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="about.html">AboutUs</a></li>
+                <li><a href="login.html">Login/Reg</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="contact-header">
+        <h1>Contact U<span style="color: #FFA500;">s</span></h1>
+        <p>We'd love to hear from you! Please fill out the form below with your inquiries.</p>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+
+        <div class="contact-details">
+            
+            <h2>Contact Details</h2>
+            <p style="font-size: 25px; color:#666 ;">If you have any questions, concerns, or need assistance,<br>
+                our team is here to help. We are dedicated to providing<br>
+                excellent &nbsp;support&nbsp; and &nbsp;ensuring &nbsp;your experience &nbsp;with<br>
+                our services is seamless. Please reach out to us, and we<br>
+                will respond as soon as possible. Thank you for choosing us!</p><br><br>
+            <ul>
+                <li>
+                    <img src="MAIL.png" alt="Email Icon">
+                    <p>Email: cars@rentalsytem.pk</p>
+                </li>
+                <li>
+                    <img src="PHONE.png" alt="Phone Icon">
+                    <p>Phone: +42315726276</p>
+                </li>
+                <li>
+                    <img src="LOC.png" alt="Location Icon">
+                    <p>Location: Satellite Town</p>
+                </li>
+            </ul><br>
+        </div>
+        <footer class="footer-1">
+            <p>&copy; 2024 GET KEYs. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
